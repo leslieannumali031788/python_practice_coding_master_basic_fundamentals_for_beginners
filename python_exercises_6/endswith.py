@@ -5,7 +5,7 @@ def endswith(text: str, suffix: str) -> bool:
     if text.find(suffix) == len(text) -len(suffix):
         return True
     return False
-print(endswith("jehosh", "sh"))
+print(endswith("leslie", "lie"))
 #shorter version of the first function, less readable
 def endswith(text: str, suffix: str) -> bool:
     return text.find(suffix) == len(text) - len(suffix)
